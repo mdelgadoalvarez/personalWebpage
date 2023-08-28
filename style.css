@@ -1,0 +1,78 @@
+/*
+  Name: Michelle Delgado-Alvarez
+  Section: CSE 190e
+  This is the style.css page for my About Me web page. It is used by
+  all pages in my web page to give the site a consistent look and feel.
+*/
+
+body {
+  background-image: url(backphoto.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 30px;
+  list-style-position: inside;
+  /*I got this image from https://www.freepik.com/free-vector/elegant-purple-alcohol-ink-background_12740241.htm#page=1&query=purple%20and%20white%20background&position=2
+  */
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.mainphoto {
+  width: 230px;
+  border: solid 7px;
+  border-color: grey;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beach {
+  width: 230px;
+  border: solid 6px;
+  border-color: purple;
+}
+
+#footerimage {
+  width: 50px;
+  height: auto;
+}
+
+footer {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.links {
+  font-size: 25px;
+}
+
+.pictures img {
+  width: 300px;
+  flex-direction: row;
+  border-radius: 4px;
+  border: solid 7px;
+  border-color: grey;
+}
+
+.factstext p {
+  font-size: 33px;
+}
+
+.factstext {
+  font-size: 30px;
+}
+
+.contacttext {
+  background-color: grey;
+  border-radius: 26px;
+  border: 3px;
+  font-size: 20px;
+  text-align: center;
+}
